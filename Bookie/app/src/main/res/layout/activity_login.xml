@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+
+    <EditText
+        android:padding="10dp"
+        android:background="@drawable/edittext_back"
+        android:id="@+id/user_id"
+        android:layout_margin="20dp"
+        android:hint="Email-Id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:padding="10dp"
+        android:background="@drawable/edittext_back"
+        android:id="@+id/passwordd"
+        android:layout_margin="20dp"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+    <Button
+        android:padding="10dp"
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-light"
+        android:text="LogIn"
+        android:textAllCaps="false"
+        android:textColor="#FFF" />
+
+
+    <Button
+        android:padding="10dp"
+        android:id="@+id/btn_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-light"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#FFF" />
+
+
+
+
+</LinearLayout>
